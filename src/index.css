@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+  --color-primary: #f97c00;
+}
+
+.main-container {
+  @apply flex flex-col items-center justify-center;
+}
+
+.neon-effect {
+  text-shadow: 0px 0px 12px rgba(249, 124, 0, 1);
+}
