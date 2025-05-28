@@ -1,4 +1,6 @@
 import { Link } from './components/link';
+import { ProjectCard } from './components/project-card';
+import { projects } from './constants/projects';
 import { socialLinks } from './constants/social';
 
 export function App() {
@@ -20,6 +22,28 @@ export function App() {
           </li>
         ))}
       </ul>
+
+      <div className='mt-10 space-y-2'>
+        {projects.map((project) => (
+          <ProjectCard
+            key={project.title}
+            title={project.title}
+            description={project.description}
+            href={project.href}
+            imageUrl={project.imageUrl}
+          />
+        ))}
+      </div>
     </div>
   );
 }
+
+/* 
+<img
+  alt="United States"
+  style="border-radius: 1000px;"
+  height="100"
+  width="100"
+  src="http://purecatamphetamine.github.io/country-flag-icons/1x1/US.svg"/>
+
+*/
