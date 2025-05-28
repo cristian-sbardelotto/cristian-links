@@ -1,0 +1,16 @@
+{
+  "home": {
+    "title": "olá! eu sou",
+    "second_title": "um desenvolvedor web"
+  },
+  "projects": {
+    "cristian_os": "aplicação baseada no Windows pra falar mais sobre mim",
+    "studay": "ferramente para ajudar estudantes a gerenciar suas tarefas",
+    "quizzed": "quiz divertido e consistente para testar seus conhecimentos",
+    "qrcode_generator": "ferramenta simples para gerar QR codes para o link desejado"
+  },
+  "footer": {
+    "copyright": "atualmente estou trabalhando na",
+    "second_copyright": "como desenvolvedor frontend, mas às vezes gosto de mexer com ferramentas backend"
+  }
+}
