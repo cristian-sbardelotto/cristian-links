@@ -3,6 +3,7 @@
 @theme {
   --font-inter: 'Inter', sans-serif;
   --color-primary: #f97c00;
+  --color-muted: oklch(87.1% 0.006 286.286);
 }
 
 .main-container {

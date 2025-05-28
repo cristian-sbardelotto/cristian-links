@@ -7,7 +7,7 @@ export function Link({ className, ...props }: Props) {
   return (
     <a
       className={twMerge(
-        'block cursor-pointer text-zinc-400 transition-all hover:-translate-y-0.5 hover:text-zinc-200',
+        'text-muted block cursor-pointer transition-all hover:-translate-y-0.5 hover:text-zinc-200',
         className,
       )}
       target='_blank'
