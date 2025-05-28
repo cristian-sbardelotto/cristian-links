@@ -9,6 +9,10 @@
   @apply flex flex-col items-center justify-center;
 }
 
+.gradient-text {
+  @apply bg-gradient-to-t from-gray-500 via-zinc-300 to-zinc-50 bg-clip-text text-transparent;
+}
+
 .neon-effect {
   text-shadow: 0px 0px 12px rgba(249, 124, 0, 1);
 }
