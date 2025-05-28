@@ -37,7 +37,7 @@ export function App() {
 
       <div className='bg-muted/5 h-0.5 w-full' />
 
-      <p className='text-muted/65'>
+      <p className='text-muted/60'>
         i'm currently working at{' '}
         <a
           className='inline-block text-zinc-200 underline-offset-4 hover:underline'
@@ -49,6 +49,16 @@ export function App() {
         as a frontend developer, but sometimes i like to mess with some backend
         tools
       </p>
+
+      <div className='text-muted/60 flex items-center gap-1.5 text-sm'>
+        <span>typescript</span>
+        <div className='bg-muted/60 size-0.5 rounded-full' />
+        <span>react</span>
+        <div className='bg-muted/60 size-0.5 rounded-full' />
+        <span>tailwind</span>
+        <div className='bg-muted/60 size-0.5 rounded-full' />
+        <span>git</span>
+      </div>
     </div>
   );
 }
