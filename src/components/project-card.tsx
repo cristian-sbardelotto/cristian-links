@@ -21,7 +21,7 @@ export function ProjectCard({ title, description, href, imageUrl }: Props) {
           {title} <MoveUpRightIcon className='text-muted' size={12} />
         </p>
 
-        <p className='text-muted text-sm'>{description}</p>
+        <p className='text-muted/60 text-sm'>{description}</p>
       </div>
     </a>
   );
