@@ -2,6 +2,8 @@
 
 This project was built using React, TypeScript, and TailwindCSS to explore a minimalist and simple design style. Its purpose is to help me practice my skills and showcase a bit of my work.
 
+The website was created based on [tiago's website](https://tiagorangel.com/).
+
 > ⚠️ Feel free to [contact me](https://portfolio-chi-lemon-51.vercel.app/contact), and share your **_feedback_** and **_insights_**, or report a **_bug_**!
 
 <p>

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Separator } from './ui/separator';
+import { Link } from './ui/link';
 
 export function Footer() {
   const { t } = useTranslation();
@@ -27,6 +28,13 @@ export function Footer() {
         <Separator variant='dot' />
         <span>git</span>
       </div>
+
+      <p className='text-muted/60 flex items-center gap-1 text-sm'>
+        {t('footer.credits')}{' '}
+        <Link href='https://tiagorangel.com/' className='text-zinc-50'>
+          tiagorangel.com
+        </Link>
+      </p>
     </footer>
   );
 }

@@ -11,6 +11,7 @@
   },
   "footer": {
     "copyright": "i'm currently working at",
-    "second_copyright": "as a frontend developer, but sometimes i like to mess with some backend tools"
+    "second_copyright": "as a frontend developer, but sometimes i like to mess with some backend tools",
+    "credits": "design based on"
   }
 }
