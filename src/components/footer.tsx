@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Separator } from './ui/separator';
 
 export function Footer() {
   const { t } = useTranslation();
@@ -19,11 +20,11 @@ export function Footer() {
 
       <div className='text-muted/60 flex items-center gap-1.5 text-sm'>
         <span>typescript</span>
-        <div className='bg-muted/60 size-0.5 rounded-full' />
+        <Separator variant='dot' />
         <span>react</span>
-        <div className='bg-muted/60 size-0.5 rounded-full' />
+        <Separator variant='dot' />
         <span>tailwind</span>
-        <div className='bg-muted/60 size-0.5 rounded-full' />
+        <Separator variant='dot' />
         <span>git</span>
       </div>
     </footer>

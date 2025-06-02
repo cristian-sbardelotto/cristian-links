@@ -12,7 +12,7 @@ export function LanguageSwitcher() {
   return (
     <p
       onClick={toggleLanguage}
-      className='group -mt-3 flex cursor-pointer items-center gap-1 underline-offset-4 hover:underline'
+      className='group animate-fade-in-scale -mt-3 flex cursor-pointer items-center gap-0.5 underline-offset-4 hover:underline'
     >
       {i18n.language}
 

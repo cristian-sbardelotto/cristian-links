@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { socialLinks } from '../constants/social';
-import { Link } from './link';
+import { Link } from './ui/link';
 
 export function Header() {
   const { t } = useTranslation();
@@ -12,7 +12,7 @@ export function Header() {
           {t('home.title')}{' '}
           <span className='text-primary neon-effect'>cristian</span>
           {', '}
-          {t('home.second_title')} <span className='text-white'>👑</span>
+          {t('home.second_title')}
         </h1>
       </div>
 
