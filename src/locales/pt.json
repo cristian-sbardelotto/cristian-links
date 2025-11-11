@@ -7,11 +7,11 @@
     "cristian_os": "aplicação baseada no Windows pra falar mais sobre mim",
     "studay": "ferramente para ajudar estudantes a gerenciar suas tarefas",
     "quizzed": "quiz divertido e consistente para testar seus conhecimentos",
-    "qrcode_generator": "ferramenta simples para gerar QR codes para o link desejado"
+    "subscript": "gerencie e acompanhe suas assinaturas com facilidade"
   },
   "footer": {
     "copyright": "atualmente estou trabalhando na",
-    "second_copyright": "como desenvolvedor frontend, mas às vezes gosto de mexer com ferramentas backend",
+    "second_copyright": "como desenvolvedor frontend, mas também gosto de trabalhar em projetos backend no tempo livre",
     "credits": "design baseado em"
   }
 }

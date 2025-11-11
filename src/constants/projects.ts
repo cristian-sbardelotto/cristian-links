@@ -6,6 +6,12 @@ export const projects = [
     imageUrl: '/projects/cristian-os.svg',
   },
   {
+    title: 'Subscript',
+    description_key: 'projects.subscript',
+    href: 'https://subscript-iota.vercel.app/',
+    imageUrl: '/projects/subscript.ico',
+  },
+  {
     title: 'Studay',
     description_key: 'projects.studay',
     href: 'https://studay-alpha.vercel.app/',
@@ -16,11 +22,5 @@ export const projects = [
     description_key: 'projects.quizzed',
     href: 'https://quizzed-five.vercel.app/',
     imageUrl: '/projects/quizzed.ico',
-  },
-  {
-    title: 'QR code generator',
-    description_key: 'projects.qrcode_generator',
-    href: 'https://qr-code-generator-pied.vercel.app/',
-    imageUrl: '/projects/qrcode.svg',
   },
 ];

@@ -24,9 +24,9 @@ export function Footer() {
         <Separator variant='dot' />
         <span>react</span>
         <Separator variant='dot' />
-        <span>tailwind</span>
+        <span>go</span>
         <Separator variant='dot' />
-        <span>git</span>
+        <span>python</span>
       </div>
 
       <p className='text-muted/60 flex items-center gap-1 text-sm'>
