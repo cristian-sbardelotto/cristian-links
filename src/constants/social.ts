@@ -8,7 +8,7 @@ export const socialLinks = [
     label: 'linkedin',
   },
   {
-    href: 'https://portfolio-chi-lemon-51.vercel.app/',
+    href: 'https://cristiansbardelotto.com.br',
     label: 'portfolio',
   },
 ];
