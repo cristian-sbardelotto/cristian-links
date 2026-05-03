@@ -31,8 +31,8 @@ export function Footer() {
 
       <p className='text-muted/60 flex items-center gap-1 text-sm'>
         {t('footer.credits')}{' '}
-        <Link href='https://tiagorangel.com/' className='text-zinc-50'>
-          tiagorangel.com
+        <Link href='https://tiago.zip/' className='text-zinc-50'>
+          tiago.zip
         </Link>
       </p>
     </footer>
